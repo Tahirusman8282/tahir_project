@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+
+</style>
+</head>
+<body>
+ <!----nav bar contents---->
+<nav class="navbar navbar-expand-sm bg-success navbar-dark">
+    <div class="container">
+    <div class="navbar-header">
+      <a href="miniblog.com" class="navbar-brand">Mini Blog</a> 
+    </div>
+    <ul class="nav navbar-nav navbar-right ">
+      
+      <li><a href="login.html">Login</a> </li>
+      <li><a href="#">Politics</a> </li>
+      <li><a href="#">Tech</a> </li>
+      <li><a href="#">Entertainment</a> </li>
+      <li><a href="#">Sport</a> </li>
+      
+
+    </ul>
+    </div>
+  </nav>
+
+
+<div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+          <div class="card" style="width: 100%;">
+            <div class="card-body">
+              
+              <form action="/action_page.php" method="post">
+            <div class="imgcontainer">
+              <img src="images/naub.png" alt="naub" class="naub">
+            </div>
+
+                    
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+                  
+              <button type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+           
+
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" class="cancelbtn btn-sm">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+            
+          </div>
+        </div>
+        </div>
+        <div class="col-3"></div>
+      </div>
+
+
+
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
